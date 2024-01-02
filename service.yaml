@@ -1,0 +1,11 @@
+kind: Service
+metadata:
+  name: nginx-service
+spec:
+  selector:
+    app: nginx-app
+  ports:
+    - protocol: TCP
+      port: 6000
+      targetPort: 5000
+    type: NodePort  
