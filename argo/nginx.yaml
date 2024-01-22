@@ -26,7 +26,7 @@ kind: Deployment
 metadata:
   name: nginx-deployment
   labels:
-    apps: nginx-deployment
+    apps: nginx-app
 spec:
   selector:
     matchLabels:
