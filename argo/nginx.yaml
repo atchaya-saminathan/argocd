@@ -3,8 +3,8 @@ metadata:
   name: nginx-deployment
   labels:
     app: nginx-app
-  annotations:
-    link.argocd.argoproj.io/external-link: https://hub.docker.com/repository/docker/clouduserlo$
+#  annotations:
+#    link.argocd.argoproj.io/external-link: https://hub.docker.com/repository/docker/clouduserlo$
 spec:
   selector:
     matchLabels:
